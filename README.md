@@ -1,2 +1,2 @@
-# Zawolo_Creative-Code-Fall-24-25_Final-Project
-Christian Zawolo's final for the fall session of creative code
+# Zawolo_Final
+The final project for the fall 2024-2025 section of Introduction to Creative Code

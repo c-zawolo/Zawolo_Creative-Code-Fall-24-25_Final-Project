@@ -1,0 +1,41 @@
+html, body {
+  margin: 10 px;
+  padding: 0;
+  background-color: #F2E5CD
+}
+
+.container {display: grid;
+  grid-template-columns: 122px, 543px,235px;
+  grid-template-rows: 141px, 383px, 189px;
+  gap: 7px, 3px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". banner banner"
+    ". canvas buttons"
+    ". directions statement";
+ background: pink;
+}
+
+.canvas { grid-area: canvas;
+ display: block;
+  margin: 50 px;
+  padding: 5 px;
+  background: brown;}
+
+.buttons { grid-area: buttons;
+display: flex;
+margin: auto;
+padding: 10 px;
+background: orange;}
+
+.directions { grid-area: directions; 
+background: teal;}
+
+.statement { grid-area: statement; 
+background: purple;}
+
+.banner { grid-area: banner;
+background: yellow;
+margin: 50 px;
+padding: 10 px;
+}

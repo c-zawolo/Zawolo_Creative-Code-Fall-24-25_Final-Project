@@ -1,41 +1,53 @@
 html, body {
   margin: 10 px;
   padding: 0;
-  background-color: #F2E5CD
+  background-color: #F2E5CD;
+  text-align: center;
 }
-
 .container {display: grid;
-  grid-template-columns: 122px, 543px,235px;
-  grid-template-rows: 141px, 383px, 189px;
+  grid-template-columns: 122px, 543px,;
+  grid-template-rows: 141px, 83px, ;
   gap: 7px, 3px;
   grid-auto-flow: row;
   grid-template-areas:
     ". banner banner"
     ". canvas buttons"
     ". directions statement";
- background: pink;
+background-image: url(images/knxchx_resize.png);
+background-color: #F2E5CD;
+margin: 50px;
+ padding: 100px;
+ background-size: cover;
 }
 
 .canvas { grid-area: canvas;
  display: block;
-  margin: 50 px;
-  padding: 5 px;
-  background: brown;}
+  margin: auto,;
+  padding: auto;
+  /*background: brown;*/
+}
 
 .buttons { grid-area: buttons;
 display: flex;
 margin: auto;
 padding: 10 px;
-background: orange;}
+/*background: orange;*/
+}
 
-.directions { grid-area: directions; 
-background: teal;}
+#directions { grid-area: directions; 
+background: #F2E5CD;
+}
 
-.statement { grid-area: statement; 
-background: purple;}
+#statement { grid-area: statement; 
+background: #F2E5CD;
+text-align: center;
+margin: auto;
+padding: auto;
+}
 
 .banner { grid-area: banner;
-background: yellow;
-margin: 50 px;
-padding: 10 px;
+/*background: rgba(251, 251, 89, 0.83);*/
+margin: auto;
+padding: auto;
+text-align: right;
 }
